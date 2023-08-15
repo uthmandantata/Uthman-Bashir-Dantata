@@ -4,20 +4,8 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-p {
-  color: rgb(85, 85, 85);
-}
-
 /* TRANSITION */
 
 a,
@@ -175,20 +163,20 @@ section {
   margin: auto 0;
 }
 
-.section__text {
+.section_text {
   align-self: center;
   text-align: center;
 }
 
-.section__text p {
+.section_text p {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.section_text_p1 {
   text-align: center;
 }
 
-.section__text__p2 {
+.section_text_p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -313,20 +301,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -343,7 +331,7 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
+  width: 9rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
@@ -447,8 +435,8 @@ footer p {
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
+  #skills,
+  .skills-details-container {
     margin-top: 2rem;
   }
   #profile,
@@ -503,7 +491,7 @@ footer p {
   .nav-links li a {
     font-size: 1rem;
   }
-  .experience-sub-title {
+  .skills-sub-title {
     font-size: 1.25rem;
   }
   .logo {
@@ -519,13 +507,11 @@ footer p {
     height: 46vw;
     justify-content: center;
   }
-  .section__text__p2 {
+  .section_text__p2 {
     font-size: 1.25rem;
   }
   .title {
     font-size: 2rem;
   }
-  .text-container {
-    text-align: justify;
-  }
+  
 }
